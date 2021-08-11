@@ -1,0 +1,93 @@
+* {
+    font-family: "Karma", sans-serif;
+}
+
+html, body {
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: #f0f4fb;
+}
+
+/* TOP */
+.top .center{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.main .padding-16{
+    margin: 2rem auto;
+    max-width: calc(100% - 30%);
+    display: flex;
+    gap: 2rem;
+}
+.main .padding-16 .item{
+    background: white;
+    border-radius: 20px;
+}
+.main .padding-16 .item:hover{
+    box-shadow: 0 4px 20px 0 rgba(34, 68, 123, 0.2);
+    cursor: pointer;
+}
+.main .padding-16 .item img{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+.main .padding-16 .item h3 p{
+    padding: 2rem;
+}
+.main .padding-16 .item h3{
+    margin: 1rem 0;
+    color: #22447b;
+    padding: 10px;
+
+}
+.main .padding-16 .item p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #6b82a7;
+    margin: 0;
+    padding: 10px;
+}
+
+/* About section */
+.about{
+    padding: 50px 300px 50px 300px;
+    right: 0;
+    left: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about.padding-32 h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.about .padding-32 img{
+    width: 100%;
+
+
+}
+.about .padding-32 h4{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.about .padding-32 h6{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.footer{
+    display: flex;
+}
+.footer h3{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.footer p{
+    font-size: 1rem;
+    font-weight: 500;
+}
